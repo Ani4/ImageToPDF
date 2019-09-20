@@ -1,14 +1,114 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>IMG to PDF</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/Custom-File-Upload.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="header-blue">
+            <nav
+                class="navbar navbar-dark navbar-expand-lg border-dark text-left shadow align-self-center bounce animated navigation-clean-search">
+                <div class="container">
+                    <h1 class="text-right d-inline-block align-self-center"
+                        style="font-size: 60px;font-family: Aclonica, sans-serif;">Image to PDF&nbsp;</h1><span></span>
+                </div>
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                        <p class="text-justify bounce animated"
+                            style="filter: blur(0px) brightness(200%) contrast(200%) grayscale(0%) hue-rotate(360deg) invert(0%) saturate(200%) sepia(100%);font-family: 'Source Sans Pro', sans-serif;">
+                            <br><strong>Image to PDF</strong>&nbsp;– Convert Images
+                            to&nbsp;<strong>PDF</strong>&nbsp;Online. Click the UPLOAD FILES and select files for
+                            conversion or just drag and drop them to the upload area. You can either download the
+                            converted files one by one or simply click the COMBINED button to download all of the files
+                            merged together.<br><br><br></p>
+                        <form action="/upload" method="post" enctype="multipart/form-data">
+                            <input class="text-center border rounded border-info shadow-none d-block file"
+                                id="user_group_label" type="file" name="FileUploaded" placeholder="Choose or Drag an
+                            image..." style="color: rgb(255,255,255);width: auto;height: 71px;"><i
+                                class="fas fa-file-image" style="color: #ffffff;"></i>&nbsp;
+                            </input>
+                            <button class="btn btn-primary btn-lg text-center d-inline-block float-none"
+                                data-bs-hover-animate="pulse" type="submit"
+                                style="height: 43px;width: auto;padding: auto;">Upload</button>
+                        </form>
+                        <p>After submit wait upto 60 sec</p>
+                    </div>
+                    <div class="col"><i class="fa fa-image" data-aos="fade" data-aos-once="true"
+                            style="font-size: 10em;color: rgb(76,191,76);margin: 5% 0 0 0;"></i><i
+                            class="fa fa-arrow-right shake animated infinite"
+                            style="font-size: 8em;color: rgb(76,191,76);margin: 10px;"></i>
+                        <i class="fa fa-file-pdf-o"
+                            style="height: 130px;width: 139px;font-size: 10em;color: rgb(211,67,67);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-toolbar">
+                <div class="btn-group" role="group"></div>
+                <div class="btn-group" role="group"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a data-bs-hover-animate="rubberBand" href="#"><i
+                        class="icon ion-social-instagram"></i></a><a data-bs-hover-animate="rubberBand" href="#"><i
+                        class="icon ion-social-github"></i></a><a data-bs-hover-animate="rubberBand" href="#"><i
+                        class="icon ion-social-facebook"></i></a></div>
+            <p class="copyright">&nbsp;Aniket © 2019</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Custom-File-Upload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Img to Pdf</title>
 </head>
+
 <body>
     <h1>image to pdf</h1>
     <form action="/upload" method="POST" enctype="multipart/form-data">
-    <input type="file" name ="FileUploaded"><input type="submit" ></form>
+        <input type="file" name="FileUploaded"><input type="submit"></form>
 </body>
+
 </html>

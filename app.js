@@ -22,7 +22,7 @@ const upload = multer ({storage: storage}).single("FileUploaded");
 
 //ROUTE API
 app.set("view engine","ejs");
-app.set(express.static("public"));
+app.use(express.static("public"));
 
 
 app.get("/",(req,res)=>{
