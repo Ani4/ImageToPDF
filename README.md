@@ -6,10 +6,10 @@
 ---
 ---
 - STEP 1  
- ![INPUT_FILE]./(step1.jpeg)
+ ![INPUT_FILE](https://drive.google.com/file/d/1bNScU9LPLXaMwvVWR3jKlDKXP_95nkJn/view?usp=sharing)
  
  - STEP 2
- ![DOWNLOADED](./step2.jpeg)
+ ![DOWNLOADED](https://drive.google.com/file/d/1Wln6HVZCTvqmd9CRbGcgrTL2ZG15YFEq/view?usp=sharing)
  #
 
 
