@@ -6,10 +6,10 @@
 ---
 ---
 - STEP 1  
- ![INPUT_FILE](step1.jpeg)
+ ![INPUT_FILE]./(step1.jpeg)
  
  - STEP 2
- ![DOWNLOADED](step2.jpeg)
+ ![DOWNLOADED](./step2.jpeg)
  #
 
 
