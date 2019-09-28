@@ -6,10 +6,10 @@
 ---
 ---
 - STEP 1  
- ![INPUT_FILE](https://drive.google.com/file/d/1bNScU9LPLXaMwvVWR3jKlDKXP_95nkJn/view?usp=sharing)
+ ![INPUT_FILE](https://github.com/HunterANI/ImageToPDF/blob/styling/Step1.jpeg)
  
  - STEP 2
- ![DOWNLOADED](https://drive.google.com/file/d/1Wln6HVZCTvqmd9CRbGcgrTL2ZG15YFEq/view?usp=sharing)
+ ![DOWNLOADED](https://github.com/HunterANI/ImageToPDF/blob/styling/Step2.jpeg)
  #
 
 
